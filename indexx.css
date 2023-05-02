@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ato a{
+text-decoration: none;
+color: rgb(75, 14, 78);
+}
+.ato a:hover{
+background-color:blanchedalmond;
+color:darkblue;
+}
+ul{
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+ul li{
+  position: relative;
+  float: left;
+  width: 240px;
+  height: 50px;
+  text-align: center;
+   background-color: burlywood;
+   display: block;
+    line-height: 50px;
+   
+}
+ul li a{
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+}
+ul li a:hover{
+    background-color:violet;
+    display: block;
+    font-weight: bolder;
+}
+#abt{
+ margin-top: 100px;
+}
+#abt{
+    color: rgb(8, 8, 8);
+}
+#abt:hover{
+    color: rgb(46, 68, 125);
+}
+#btn{
+    background-color: #eee;
+    margin-left: 18px;
+    font-size: 15px;
+    border: 1px solid black;
+}
+#btn:hover{
+    background-color:darkgrey;
+}
+#btn:active{
+    background-color:darkseagreen;
+}
+#quo{
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.para2{
+  position: relative;
+  top: -15px;
+}
+.copy{
+    font-size: 14px;
+}
+#para{
+     margin-left: 20px;
+}
+#footer{
+    background-color: black;
+    color: #eee;
+    height:50px;
+    height: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

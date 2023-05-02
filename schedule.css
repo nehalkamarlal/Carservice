@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.ato a{
+    text-decoration: none;
+    color: rgb(75, 14, 78);
+    margin-left: 20px;
+    
+    }
+    .ato a:hover{
+    background-color:blanchedalmond;
+    color:darkblue;
+
+    }
+    #header ul{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+    }
+    #header ul li{
+      position: relative;
+      float: left;
+      width: 240px;
+      height: 50px;
+      text-align: center;
+       background-color: burlywood;
+       display: block;
+        line-height: 50px;
+       
+    }
+    #header ul li a{
+        color: blue;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    #header ul li a:hover{
+        background-color:violet;
+        display: block;
+        font-weight: bolder;
+    }
+    #head{
+        margin-top: 120px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color:dimgray;
+        
+        width: 400px;
+        height: 50px;
+        margin-left: 120px;
+        border:1px solid rgb(66, 150, 215);
+        
+    }
+    #head:hover{
+        background-color: grey;
+        font-size: 25px;
+    }
+    #appoint1{
+        margin-left: 65px;
+    }
+    #address{
+        margin-top: 30px;
+    }
+    #address1{
+        margin-left: 139px;
+        margin-top: 20px;
+    }
+    #city1{
+        margin-top: 20px;
+        margin-left: 168px;
+    }
+    #state{
+        margin-top: 20px;
+        margin-left: 160px;
+    }
+    #notify1{
+        margin-top: 20px;
+        margin-left: 60px;
+        
+    }
+    #btn{
+        margin-top: 20px;
+        margin-left: 50px;
+        background-color: darkgrey;
+    }
+    #btn:hover{
+        background-color:dimgrey ;
+    }
+    #footer{
+        background-color: black;
+        color: #eee;
+        height:50px;
+        height: 100;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }

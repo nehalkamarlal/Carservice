@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.ato a{
+    text-decoration: none;
+    color: rgb(75, 14, 78);
+    margin-left: 20px;
+    
+    }
+    .ato a:hover{
+    background-color:blanchedalmond;
+    color:darkblue;
+
+    }
+    #header ul{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+    }
+    #header ul li{
+      position: relative;
+      float: left;
+      width: 240px;
+      height: 50px;
+      text-align: center;
+       background-color: burlywood;
+       display: block;
+        line-height: 50px;
+       
+    }
+    #header ul li a{
+        color: blue;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    #header ul li a:hover{
+        background-color:violet;
+        display: block;
+        font-weight: bolder;
+    }
+    #nehal{
+        margin-top: 130px;
+        margin-bottom: 35px;
+        margin-left: 60px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color:dimgray;
+        
+        width: 300px;
+        height: 50px;
+        margin-left: 120px;
+        border:1px solid rgb(66, 150, 215);
+        
+
+    }
+    #nehal:hover{
+        font-size: 25px;
+        background-color: slategrey;
+    }
+ #data{
+    display: block;
+    margin: 20px;
+    padding: 20px;
+
+ }
+ #name{
+    margin-left: 80px;
+ }
+ #email{
+    margin-left: 80px;
+ }
+ #nc{
+    margin-left: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ } 
+.selectop{
+    margin-left: 30px;
+}
+.main{
+    margin: 10px;
+}
+#carma{
+    margin-left: 60px;
+}
+#carmodel{
+    margin-left: 55px;
+}
+.fuel1{
+   margin-left: 58px; 
+}
+
+#btn{
+    background-color: #eee;
+
+}
+#btn:hover{
+    background-color:darkgray;
+}
+#footer{
+    background-color: black;
+    color: #eee;
+    height:50px;
+    height: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
